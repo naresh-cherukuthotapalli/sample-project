@@ -1,0 +1,9 @@
+
+{
+    "name": "Sample Research Email Workflow",
+    "steps": [
+        {"tool": "scrape_website", "input": {"url": "https://example.com"}},
+        {"tool": "summarize_text", "input": {"text": "Fake content from https://example.com"}},
+        {"tool": "send_email", "input": {"to": "user@example.com", "subject": "Summary", "body": "Fake content from https://example.com..."}}
+    ]
+}
